@@ -1,13 +1,13 @@
 # MCapture iOS SDK
 
 ## Installation
-### Manual
-SDK is actively maintained with xcframeworks attached as assets to the release (tag). Download the MobvenBugKit.xcframework from the latest release assets.
-### Binary Swift Package
-You can include `MobvenBugKit` in your workspace by creating a Swift Package for it.
+### Swift Package Manager
+You can add `MobvenBugKit` to your project through SPM.
 ```bash
 https://github.com/mobven/MCaptureiOS
 ```
+### Manual
+SDK is actively maintained with xcframeworks. Download the [MobvenBugKit.xcframework](https://storage.googleapis.com/mobven/iOS/Capture/2.0.2/MobvenBugKit.xcframework.zip) and add to your project's target.
 
 ## Usage
 MobvenBugKit can be started calling (ideally in AppDelegate or SceneDelegate):
