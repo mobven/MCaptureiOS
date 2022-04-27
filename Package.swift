@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "MCaptureiOS",
+    platforms: [.iOS(.v9)],
     products: [
         .library(
             name: "MCaptureiOS",
